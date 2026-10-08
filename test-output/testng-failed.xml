@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="test.SaucedemoCheckoutTest">
+        <methods>
+          <include name="clickFinish"/>
+          <include name="checkoutTitleVerify"/>
+          <include name="test"/>
+          <include name="clickContinue"/>
+          <include name="setup"/>
+          <include name="displayTotalAmount"/>
+          <include name="fillOutForm"/>
+        </methods>
+      </class> <!-- test.SaucedemoCheckoutTest -->
+      <class name="test.SaucedemoCartTest">
+        <methods>
+          <include name="test"/>
+          <include name="checkoutButtonClick"/>
+          <include name="checkCheckoutButtonEnabled"/>
+          <include name="cartTitleTextVerify"/>
+          <include name="continueShoppingButtonCheck"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- test.SaucedemoCartTest -->
+      <class name="test.SaucedemoHomeTest">
+        <methods>
+          <include name="test"/>
+          <include name="sortProducts"/>
+          <include name="validateText"/>
+          <include name="setup"/>
+          <include name="cartButtonClick"/>
+          <include name="addToCart"/>
+        </methods>
+      </class> <!-- test.SaucedemoHomeTest -->
+      <class name="test.SaucedemoLogintest">
+        <methods>
+          <include name="test"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- test.SaucedemoLogintest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
